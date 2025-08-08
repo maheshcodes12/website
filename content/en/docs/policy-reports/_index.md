@@ -293,12 +293,10 @@ spec:
     pass: 0
     skip: 0
     warn: 0
-
-
 ```
 
 > **Note:** These reports are ephemeral and exist only in memory or temporarily in the cluster. They are used by Kyverno internally to accumulate rule evaluation results before merging them into final `PolicyReport` or `ClusterPolicyReport` resources. You typically don’t interact with them unless you are debugging policy behavior or inspecting the internal evaluation flow.
 
 ### Reference
 
-For developers or advanced users, more technical information about these reports can be found in the [Kyverno developer documentation](https://github.com/kyverno/kyverno/tree/main/docs/dev/reports).
+For more details on the internal reporting processes, see the developer docs [here](https://github.com/kyverno/kyverno/tree/main/docs/dev/reports).
